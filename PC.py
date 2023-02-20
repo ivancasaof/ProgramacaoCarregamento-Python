@@ -1502,7 +1502,7 @@ frame5.grid_columnconfigure(3, weight=1)
 server = '192.168.1.18'
 database = 'Protheus'
 username = 'pcp'
-password = 'gv@2020'
+password = 'senha'
 conectar = pyodbc.connect('DRIVER={SQL Server};SERVER=' + server + ';DATABASE=' + database + ';UID=' + username + ';PWD=' + password)
 cursor2 =  conectar.cursor()
 
